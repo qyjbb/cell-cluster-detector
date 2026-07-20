@@ -1,6 +1,6 @@
-﻿streamlit
-numpy
+streamlit
+numpy<2.1
 opencv-python-headless
-cellpose
+cellpose<4
 pillow
 torch
