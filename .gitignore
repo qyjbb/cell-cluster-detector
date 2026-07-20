@@ -1,0 +1,19 @@
+﻿# 忽略 IDE 配置文件
+.idea/
+.vscode/
+
+# 忽略 Python 缓存和编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略虚拟环境文件夹（如果你本地建了的话）
+venv/
+env/
+
+# 忽略操作系统自动生成的缩略图或配置
+.DS_Store
+Thumbs.db
+
+# 忽略模型自动下载的缓存文件夹 (很重要，别把100多M的模型传上去了)
+.cellpose/
