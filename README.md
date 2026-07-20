@@ -10,6 +10,8 @@
 
 ![测试细胞图](docs/images/test-nuclei.png)
 
+说明：该测试图为本项目演示用的模拟细胞核图像，由脚本生成，用于验证上传、检测和可视化流程；不是 BBBC006 数据集原始图片。
+
 运行结果：
 
 ![检测结果截图](docs/images/detection-result.png)
