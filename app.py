@@ -103,7 +103,7 @@ source_column, result_column = st.columns(2)
 
 with source_column:
     st.subheader("原始图像")
-    st.image(image_array, use_column_width=True)
+    st.image(image_array, width="stretch")
 
 if st.button("开始检测"):
     with st.spinner("正在检测细胞区域..."):
@@ -121,12 +121,12 @@ if st.button("开始检测"):
 
             with result_column:
                 st.subheader(f"检测结果：{cell_count} 个目标")
-                st.image(result_image, use_column_width=True)
+                st.image(result_image, width="stretch")
 
             st.success(f"检测完成，共识别 {cell_count} 个细胞目标。")
 
             with st.expander("查看分割 Mask"):
-                st.image(masks, clamp=True, use_column_width=True)
+                st.image(masks, clamp=True, width="stretch")
 
         except Exception as exc:
             st.error(f"检测失败：{exc}")
