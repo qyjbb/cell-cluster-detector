@@ -6,7 +6,13 @@
 
 ## 效果预览
 
-![运行截图](docs/images/upload-sample.png)
+测试图：
+
+![测试细胞图](docs/images/test-nuclei.png)
+
+运行结果：
+
+![检测结果截图](docs/images/detection-result.png)
 
 ## 功能
 
